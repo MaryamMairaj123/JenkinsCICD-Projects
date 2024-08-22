@@ -4,7 +4,7 @@ pipeline {
         stage('Checkout') {
             steps {
                 // Pull the code from the repository
-                git url: 'https://github.com/MaryamMairaj123/jenkinsbasic', branch: 'main'
+                git url: 'https://github.com/MaryamMairaj123/jenkinsbasic/JenkinsProjects', branch: 'main'
             }
         }
         stage('Build') {
